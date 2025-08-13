@@ -21,7 +21,7 @@ Apache Spark / PySpark
 ## How to Run
 Clone the repository. In your terminal:
 
-git clone https://github.com/drica-monteiro/cust_seg.git
+git clone https://github.com/drica-monteiro/ifood-case.git
 
 cd cust_seg
 
