@@ -15,6 +15,7 @@ The 2_modeling_ipynb.ipynb expects the following files inside data/processed/:
 
 ## Requirements- dependencies listed in requirements.txt:
 Python 3.8+
+Java 17
 Apache Spark / PySpark
 
 ## How to Run
@@ -27,3 +28,4 @@ cd cust_seg
 Then run the notebooks.
 
 ## If you are using Google Colab or Databricks Community Edition, you don't need to install Apache Spark / PySpark. The requirements are already native to these environments.
+## In order to avoid version conflicts, it is preferable to run this project in Google Colab.
