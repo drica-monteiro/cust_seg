@@ -13,10 +13,19 @@ The 2_modeling.ipynb expects the following files inside data/processed/:
 - transactions_processed.json - transactions
 
 
-## Requirements- dependencies listed in requirements.txt:
-Python 3.8+
-Java 17
-Apache Spark / PySpark
+## Requirements- dependencies:
+You need to install java 17.0.12 on the link below:
+
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+If you are using conda, run
+
+conda env create -f pyspark_env.yml
+conda activate pyspark_env
+
+If you are using pip,
+
+pip install -r requirements.txt
 
 ## How to Run
 Clone the repository. In your terminal:
@@ -28,4 +37,5 @@ cd ifood-case
 Then run the notebooks.
 
 ## If you are using Google Colab or Databricks Community Edition, you don't need to install Apache Spark / PySpark. The requirements are already native to these environments.
-## In order to avoid version conflicts, it is preferable to run this project in Google Colab.
+
+## The easiest way to run the notebooks is to clone the repository and run this project in Google Colab. That way there is no need to install anything and no version conflicts.
