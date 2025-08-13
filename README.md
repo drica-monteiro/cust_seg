@@ -23,7 +23,7 @@ Clone the repository. In your terminal:
 
 git clone https://github.com/drica-monteiro/ifood-case.git
 
-cd cust_seg
+cd ifood-case
 
 Then run the notebooks.
 
