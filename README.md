@@ -6,7 +6,7 @@ The 1_data_processing.ipynb uses the following files in data/raw/:
 - profile.json — customer  profiles.
 - transactions.json — transaction historic data.
 
-The 2_modeling_ipynb.ipynb expects the following files inside data/processed/:
+The 2_modeling.ipynb expects the following files inside data/processed/:
 
 - clients_processed.json - information about clients
 - offers_processed.json - offers to be distributed
